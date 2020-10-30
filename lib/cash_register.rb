@@ -7,7 +7,7 @@ class CashRegister
   end
 
   def discount
-    
+    self.emp_disc
   end
 
 end
