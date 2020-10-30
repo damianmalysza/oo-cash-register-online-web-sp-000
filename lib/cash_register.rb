@@ -6,8 +6,8 @@ class CashRegister
     @emp_disc = emp_disc
   end
 
-  def discount
-
+  def discount(discount)
+    @emp_disc = discount
   end
 
 end
