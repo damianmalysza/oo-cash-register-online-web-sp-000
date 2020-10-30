@@ -17,7 +17,8 @@ class CashRegister
   end
 
   def apply_discount
-    puts "After the discount, the total comes to to $#{@total -= @total * discount.to_f / 100}"
+    @total -= @total * discount.to_f / 100
+    puts "After the discount, the total comes to to $#{@total}."
   end
 
 end
