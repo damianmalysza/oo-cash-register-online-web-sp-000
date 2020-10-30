@@ -10,4 +10,8 @@ class CashRegister
     self.emp_disc
   end
 
+  def add_item(title,price)
+
+  end
+
 end
