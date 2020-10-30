@@ -7,7 +7,7 @@ class CashRegister
   end
 
   def discount
-
+    
   end
 
 end
