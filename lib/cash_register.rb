@@ -10,7 +10,7 @@ class CashRegister
     self.emp_disc
   end
 
-  def add_item(title,price)
+  def add_item(title,price,quantity=1)
     @total += 1
   end
 
