@@ -1,4 +1,4 @@
-class cash_register_spec
+class CashRegister
   attr_accessor :total
 
   def initialize(emp_disc = 0)
