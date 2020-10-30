@@ -1,7 +1,9 @@
 require 'pry'
 
 class CashRegister
-  attr_accessor :total, :emp_disc, :cart
+  attr_accessor :total, :emp_disc
+
+  @cart = []
 
   def initialize(emp_disc = 0)
     @total = 0
