@@ -9,7 +9,7 @@ class CashRegister
   end
 
   def discount
-    self.emp_disc
+    @emp_disc
   end
 
   def add_item(title,price,quantity=1)
