@@ -6,4 +6,6 @@ class CashRegister
     @emp_disc = emp_disc
   end
 
+  
+
 end
